@@ -1,0 +1,81 @@
+body {
+  background-color: #655C5C;
+  overflow: auto;
+}
+.user-information-page-wrapper {
+  margin: 21.5px;
+  margin-right: 10.75px;
+  background-color: #D2CFCF;
+  height: calc(100% - 42px);
+}
+
+.problem-information-page-wrapper {
+  margin: 21.5px;
+  margin-left: 10.75px;
+  background-color: #D2CFCF;
+  height: calc(100% - 42px);
+}
+
+.user-information-wrapper {
+  height: calc((100%-78px)/3);
+  padding: 26px;
+  padding-bottom: 13px;
+}
+
+.user-edit-information-wrapper {
+  height: calc((100%-78px)/1.5);
+  padding: 26px;
+  padding-top: 13px;
+}
+
+.user-information {
+  overflow: auto;
+  height: 100%;
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
+  padding: 23px;
+}
+
+.user-edit-information {
+  height: 100%;
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
+  padding: 23px;
+}
+.user-profile-description {
+  font-size: 1vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #707070;
+}
+.user-profile-description-wrapper {
+  height: 40px;
+}
+.user-profile-picture {
+  width: 60%;
+}
+
+.user-name-text-wrapper {
+  margin: auto 0;
+  font-size: 2vw;
+  margin-left: -12%;
+}
+
+.user-name-text {
+  margin: 0px;
+  display: inline-block;
+  text-align: justify;
+  overflow: auto;
+  color: #707070;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 1023px) {
+  .problem-information-page-wrapper {
+    margin-left: 26px;
+  }
+  .user-information-box {
+    display: none;
+  }
+}
