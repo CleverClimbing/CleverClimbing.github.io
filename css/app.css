@@ -6,31 +6,31 @@ body {
   margin: 21.5px;
   margin-right: 10.75px;
   background-color: #D2CFCF;
-  height: calc(100% - 42px);
+  height: 1027px;
 }
 
 .problem-information-page-wrapper {
   margin: 21.5px;
   margin-left: 10.75px;
   background-color: #D2CFCF;
-  height: calc(100% - 42px);
+  height: 1027px;
 }
 
 .user-information-wrapper {
-  height: calc((100%-78px)/3);
+  height: 299px;
   padding: 26px;
   padding-bottom: 13px;
 }
 
 .user-edit-information-wrapper {
-  height: calc((100%-78px)/1.5);
+  height: 738px;
   padding: 26px;
   padding-top: 13px;
 }
 
 .user-information {
   overflow: auto;
-  height: 100%;
+  height: 257px;
   background-color: white;
   border-radius: 2px;
   box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
@@ -38,7 +38,7 @@ body {
 }
 
 .user-edit-information {
-  height: 100%;
+  height: 694px;
   background-color: white;
   border-radius: 2px;
   box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
@@ -48,9 +48,10 @@ body {
   font-size: 1vw;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #707070;
+  margin-bottom: 0.5rem !important;
 }
 .user-profile-description-wrapper {
-  height: 40px;
+  height: 81px;
 }
 .user-profile-picture {
   width: 60%;
@@ -71,11 +72,59 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.menu-button {
+  display: none;
+  position: absolute;
+  height: 40px;
+  left: 40px;
+  top: 40px;
+}
+
+.menu-nav-bar-wrapper {
+  padding-top: 26px;
+  padding-left: 26px;
+  padding-right: 26px;
+  height: 114px;
+}
+
+.menu-nav-bar {
+  height: 73px;
+  background-color: white;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
+  padding-top: 17.5px;
+  padding-bottom: 17.5px;
+}
+
+.menu-option {
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.menu-option-text {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #707070;
+}
+
+.menu-option-text:hover {
+  cursor: pointer;
+}
+
+.active-link {
+  font-weight: 450 !important;
+}
+
 @media only screen and (max-width: 1023px) {
   .problem-information-page-wrapper {
     margin-left: 26px;
   }
   .user-information-box {
     display: none;
+  }
+  .menu-button {
+    display: inline-block;
   }
 }

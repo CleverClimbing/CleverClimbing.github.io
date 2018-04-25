@@ -6,13 +6,14 @@
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.min.js"></script>
+    <script src="js/app.js"></script>
 </head>
 
 <body>
     <div class="row">
         <div class="grid-x">
             <div class="cell medium-4 user-information-box">
-                <div class="row user-information-page-wrapper">
+                <div class="row user-information-page-wrapper" id="user-content">
                     <div class="user-information-wrapper">
                         <div class="user-information">
                             <div class="grid-x">
@@ -39,7 +40,15 @@
             </div>
             <div class="cell medium-12 large-8 problem-information-box">
                 <div class="row problem-information-page-wrapper">
-
+                    <div class="menu-nav-bar-wrapper">
+                        <div class="menu-nav-bar">
+                            <ul class="menu">
+                                <li class="menu-option"><div class="menu-option-text active-link">Problems</div></li>
+                                <li class="menu-option"><div class="menu-option-text">Statistics</div></li>
+                                <li class="menu-option hide-for-large"><div class="menu-option-text">Profile</div></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
